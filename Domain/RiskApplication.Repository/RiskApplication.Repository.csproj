@@ -39,8 +39,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Abstract\GenericBetRepository.cs" />
+    <Compile Include="Abstract\ISettledBetRepository.cs" />
+    <Compile Include="Abstract\IFileManager.cs" />
+    <Compile Include="Concrete\SettledBetRepository.cs" />
+    <Compile Include="Concrete\FileManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Service\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
