@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,14 +41,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\GenericBetRepository.cs" />
+    <Compile Include="Abstract\IDataLoader.cs" />
     <Compile Include="Abstract\ISettledBetRepository.cs" />
     <Compile Include="Abstract\IFileManager.cs" />
+    <Compile Include="Abstract\IUnsettledBetRepository.cs" />
+    <Compile Include="Concrete\DataLoader.cs" />
     <Compile Include="Concrete\SettledBetRepository.cs" />
     <Compile Include="Concrete\FileManager.cs" />
+    <Compile Include="Concrete\UnsettledBetRepository.cs" />
+    <Compile Include="Model\GenericBet.cs" />
+    <Compile Include="Model\SettledBet.cs" />
+    <Compile Include="Model\UnsettledBet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\DataFilePathFinder.cs" />
+    <Compile Include="Tools\StringExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\" />
     <Folder Include="Service\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

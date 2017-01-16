@@ -1,12 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 
 namespace RiskApplication.Repository.Concrete
 {
-    class FileManager
+    public class FileManager
     {
+        public string[] ReadAllLines(string filePath)
+        {
+            return File.ReadAllText(filePath).Split(',');
+        }
+
+        public bool FileExists(string filePath)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

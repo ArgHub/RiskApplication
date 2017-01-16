@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
+using RiskApplication.Repository.Model;
 using System.Threading.Tasks;
 
 namespace RiskApplication.Repository.Abstract
 {
-    public class ISettledBetRepository
+    public interface ISettledBetRepository
     {
+        IEnumerable<SettledBet> GetAll();
+        IEnumerable<SettledBet> GetAll(int customerId);
     }
 }
