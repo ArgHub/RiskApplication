@@ -2,6 +2,8 @@ D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\RiskApplication.WebApi.dll
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\RiskApplication.WebApi.dll
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\RiskApplication.WebApi.pdb
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\Antlr3.Runtime.dll
+D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\Castle.Core.dll
+D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\Castle.Windsor.dll
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\EntityFramework.dll
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\EntityFramework.SqlServer.dll
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\Microsoft.AspNet.Identity.Core.dll
@@ -19,6 +21,7 @@ D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\Microsoft.Owin.Security.Tw
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\Microsoft.Web.Infrastructure.dll
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\Newtonsoft.Json.dll
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\Owin.dll
+D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\RiskApplication.Repository.dll
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\System.Web.Helpers.dll
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\System.Web.Mvc.dll
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\System.Web.Optimization.dll
@@ -27,6 +30,9 @@ D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\System.Web.WebPages.Deploy
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\System.Web.WebPages.dll
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\System.Web.WebPages.Razor.dll
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\WebGrease.dll
+D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\RiskApplication.Repository.pdb
+D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\Castle.Core.xml
+D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\Castle.Windsor.xml
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\System.Web.Helpers.xml
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\System.Web.Mvc.xml
 D:\Projects\RiskApp\WebApi\RiskApplication.WebApi\bin\System.Web.Optimization.xml

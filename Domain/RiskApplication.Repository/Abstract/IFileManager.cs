@@ -9,6 +9,5 @@ namespace RiskApplication.Repository.Abstract
     public interface IFileManager
     {
         string[] ReadAllLines(string filePath);
-        bool FileExists(string filePath);
     }
 }

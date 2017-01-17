@@ -11,24 +11,26 @@ namespace RiskApplication.Repository.Concrete
 {
     public class SettledBetRepository : ISettledBetRepository
     {
-        private readonly IDataLoader<SettledBet> _dataLoader;
+       
+        private readonly IFileManager _fileManager;
         private GenericBetRepository<SettledBet> _betRepository;
         private readonly string _filePath = DataFilePathFinder.GetSettledBetsDataFilePath();
 
-        public SettledBetRepository(IDataLoader<SettledBet> dataLoader)
+        public SettledBetRepository(IFileManager fileManager)
         {
-            _dataLoader = dataLoader;
+        
+            _fileManager = fileManager;
         }
 
         public IEnumerable<SettledBet> GetAll()
         {
-            _betRepository = new GenericBetRepository<SettledBet>(_filePath, _dataLoader);
+            _betRepository = new GenericBetRepository<SettledBet>(_filePath, new DataLoader<SettledBet>(_fileManager));
             return _betRepository.GetAll();
         }
 
         public IEnumerable<SettledBet> GetAll(int customerId)
         {
-            _betRepository = new GenericBetRepository<SettledBet>(_filePath, _dataLoader);
+            _betRepository = new GenericBetRepository<SettledBet>(_filePath, new DataLoader<SettledBet>(_fileManager));
             return _betRepository.GetAll(customerId);
         }
     }

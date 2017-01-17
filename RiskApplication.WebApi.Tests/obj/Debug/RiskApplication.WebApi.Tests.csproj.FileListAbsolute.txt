@@ -1,8 +1,12 @@
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\RiskApplication.WebApi.Tests.dll.config
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\RiskApplication.WebApi.Tests.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\RiskApplication.WebApi.Tests.pdb
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Castle.Core.dll
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Castle.Windsor.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Moq.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\nunit.framework.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\RiskApplication.WebApi.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\System.Web.Helpers.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\System.Web.Mvc.dll
@@ -20,7 +24,12 @@ D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\EntityFramework.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Security.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\RiskApplication.Repository.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\RiskApplication.WebApi.pdb
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Castle.Core.xml
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Castle.Windsor.xml
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Moq.xml
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\nunit.framework.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Newtonsoft.Json.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\System.Web.Helpers.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\System.Web.Mvc.xml
@@ -37,6 +46,7 @@ D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\EntityFramework.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Security.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\RiskApplication.Repository.pdb
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\obj\Debug\RiskApplication.WebApi.Tests.csprojResolveAssemblyReference.cache
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\obj\Debug\RiskApplication.WebApi.Tests.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\obj\Debug\RiskApplication.WebApi.Tests.pdb
