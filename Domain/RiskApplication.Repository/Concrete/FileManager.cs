@@ -6,9 +6,14 @@ namespace RiskApplication.Repository.Concrete
 {
     public class FileManager : IFileManager
     {
-        public string[] ReadAllLines(string filePath)
+        public string[] ReadRecords(string filePath)
         {
             return File.ReadAllText(filePath).Split(',');
+        }
+
+        public bool FileExists(string filePath)
+        {
+            return File.Exists(filePath);
         }
     }
 }

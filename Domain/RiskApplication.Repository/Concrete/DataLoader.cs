@@ -28,10 +28,10 @@ namespace RiskApplication.Repository.Concrete
                 if (string.IsNullOrWhiteSpace(filePath))
                     throw new ArgumentException("The path specified is invalid.");
 
-                if (!File.Exists(filePath))
+                if (!_fileManager.FileExists(filePath))
                     throw new FileNotFoundException("File not found as per the path specified. Path: " + filePath);
 
-                var lines = _fileManager.ReadAllLines(filePath);
+                var lines = _fileManager.ReadRecords(filePath);
 
                 foreach (var betDataTuple in lines.Skip(1).Select(line => line.ParseData()))
                 {

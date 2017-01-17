@@ -1,12 +1,9 @@
-﻿using System;
-using System.Web.Http.Controllers;
+﻿using System.Web.Http.Controllers;
 using Castle.Windsor;
 using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using RiskApplication.Repository.Abstract;
 using RiskApplication.Repository.Concrete;
-using RiskApplication.Repository.Model;
-
 
 namespace RiskApplication.WebApi.Infrastructure
 {
