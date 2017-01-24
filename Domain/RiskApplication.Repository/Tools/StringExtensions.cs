@@ -19,7 +19,7 @@ namespace RiskApplication.Repository.Tools
                 int number;
 
                 if (!int.TryParse(splittedData[i], out number))
-                    throw new ArithmeticException("A non-numeric field value");
+                    throw new Exception("A non-numeric field value");
 
                 betArray[i] = number;
             }

@@ -13,22 +13,23 @@ namespace RiskApplication.Repository.Concrete
     {
         private readonly IFileManager _fileManager;
         private GenericBetRepository<UnsettledBet> _betRepository;
-        private readonly string _filePath = DataFilePathFinder.GetUnsettledBetsDataFilePath();
+        private readonly IDataPathFinder _dataPathFinder;
 
-        public UnsettledBetRepository(IFileManager fileManager)
+        public UnsettledBetRepository(IFileManager fileManager, IDataPathFinder dataPathFinder)
         {
             _fileManager = fileManager;
+            _dataPathFinder = dataPathFinder;
         }
 
         public IEnumerable<UnsettledBet> GetAll()
         {
-            _betRepository = new GenericBetRepository<UnsettledBet>(_filePath, new DataLoader<UnsettledBet>(_fileManager));
+            _betRepository = new GenericBetRepository<UnsettledBet>(_dataPathFinder.GetUnsettledBetsDataFilePath(), new DataLoader<UnsettledBet>(_fileManager));
             return _betRepository.GetAll();
         }
 
         public IEnumerable<UnsettledBet> GetAll(int customerId)
         {
-            _betRepository = new GenericBetRepository<UnsettledBet>(_filePath, new DataLoader<UnsettledBet>(_fileManager));
+            _betRepository = new GenericBetRepository<UnsettledBet>(_dataPathFinder.GetUnsettledBetsDataFilePath(), new DataLoader<UnsettledBet>(_fileManager));
             return _betRepository.GetAll(customerId);
         }
     }

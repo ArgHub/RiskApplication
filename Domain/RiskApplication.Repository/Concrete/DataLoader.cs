@@ -26,10 +26,10 @@ namespace RiskApplication.Repository.Concrete
             try
             {
                 if (string.IsNullOrWhiteSpace(filePath))
-                    throw new ArgumentException("The path specified is invalid.");
+                    throw new ArgumentException("The path is invalid.");
 
                 if (!_fileManager.FileExists(filePath))
-                    throw new FileNotFoundException("File not found as per the path specified. Path: " + filePath);
+                    throw new FileNotFoundException("File not found on: " + filePath);
 
                 var lines = _fileManager.ReadRecords(filePath);
 
@@ -50,7 +50,7 @@ namespace RiskApplication.Repository.Concrete
             }
             catch (Exception exception)
             {
-                throw new Exception("An error occured when trying to read the file content; File path: " + filePath,
+                throw new Exception("An error occured while reading file records; File path: " + filePath,
                     exception);
             }
         }

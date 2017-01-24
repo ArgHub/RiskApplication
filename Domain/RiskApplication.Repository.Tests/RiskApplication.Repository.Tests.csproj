@@ -91,9 +91,9 @@
   </Choose>
   <ItemGroup>
     <Compile Include="DataLoaderTests.cs" />
-    <Compile Include="GenericBetRepositoryTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SettledBetRepositortTests.cs" />
+    <Compile Include="UnsettledBetRepositortTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RiskApplication.Repository\RiskApplication.Repository.csproj">
