@@ -1,0 +1,7 @@
+D:\Projects\RiskApp\WebApi\RiskApplication.Service\bin\Debug\RiskApplication.Service.dll
+D:\Projects\RiskApp\WebApi\RiskApplication.Service\bin\Debug\RiskApplication.Service.pdb
+D:\Projects\RiskApp\WebApi\RiskApplication.Service\bin\Debug\RiskApplication.Repository.dll
+D:\Projects\RiskApp\WebApi\RiskApplication.Service\bin\Debug\RiskApplication.Repository.pdb
+D:\Projects\RiskApp\WebApi\RiskApplication.Service\obj\Debug\RiskApplication.Service.csprojResolveAssemblyReference.cache
+D:\Projects\RiskApp\WebApi\RiskApplication.Service\obj\Debug\RiskApplication.Service.dll
+D:\Projects\RiskApp\WebApi\RiskApplication.Service\obj\Debug\RiskApplication.Service.pdb

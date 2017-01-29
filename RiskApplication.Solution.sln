@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskApplication.WebApi.Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskApplication.Repository.Tests", "Domain\RiskApplication.Repository.Tests\RiskApplication.Repository.Tests.csproj", "{078D1418-C85D-4345-9BFF-921AB364C434}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskApplication.Service", "WebApi\RiskApplication.Service\RiskApplication.Service.csproj", "{CE962A41-B8E8-4057-B44E-76B34C03CDAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{078D1418-C85D-4345-9BFF-921AB364C434}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{078D1418-C85D-4345-9BFF-921AB364C434}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{078D1418-C85D-4345-9BFF-921AB364C434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE962A41-B8E8-4057-B44E-76B34C03CDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE962A41-B8E8-4057-B44E-76B34C03CDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE962A41-B8E8-4057-B44E-76B34C03CDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE962A41-B8E8-4057-B44E-76B34C03CDAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +52,6 @@ Global
 		{BDD716D7-422F-462C-A043-53E473E3FF64} = {A3B7921B-02E2-42A7-B077-31960D3D8957}
 		{C8CCA795-E04B-476E-BDD0-1C2ADD658B3D} = {A3B7921B-02E2-42A7-B077-31960D3D8957}
 		{078D1418-C85D-4345-9BFF-921AB364C434} = {9F0BAF31-AE40-4AB0-B509-F4DAA9B3ECED}
+		{CE962A41-B8E8-4057-B44E-76B34C03CDAE} = {A3B7921B-02E2-42A7-B077-31960D3D8957}
 	EndGlobalSection
 EndGlobal

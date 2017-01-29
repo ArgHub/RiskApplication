@@ -19,6 +19,7 @@ namespace RiskApplication.WebApi.Infrastructure
             container.Register(Component.For(typeof(IDataLoader<>)).ImplementedBy(typeof(DataLoader<>)).LifestylePerWebRequest());
             container.Register(Component.For<ISettledBetRepository>().ImplementedBy<SettledBetRepository>());
             container.Register(Component.For<IUnsettledBetRepository>().ImplementedBy<UnsettledBetRepository>());
+            container.Register(Component.For<IDataPathFinder>().ImplementedBy<DataPathFinder>());
         }
     }
 }

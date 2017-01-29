@@ -12,5 +12,10 @@ namespace RiskApplication.Repository.Model
             get { return WinIndex; }
             set { WinIndex = value; } 
         }
+
+        public bool IsWin
+        {
+            get { return Win > 0; }
+        }
     }
 }
