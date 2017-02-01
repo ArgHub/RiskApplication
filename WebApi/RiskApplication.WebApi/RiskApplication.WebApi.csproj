@@ -245,6 +245,10 @@
       <Project>{ae37f17e-b04f-4d9e-83ad-c07451db7559}</Project>
       <Name>RiskApplication.Repository</Name>
     </ProjectReference>
+    <ProjectReference Include="..\RiskApplication.Service\RiskApplication.Service.csproj">
+      <Project>{ce962a41-b8e8-4057-b44e-76b34c03cdae}</Project>
+      <Name>RiskApplication.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

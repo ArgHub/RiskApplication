@@ -26,17 +26,16 @@ namespace RiskApplication.Service.Concrete
             var allBets = _betRepository.GetAll();
 
             /**Used GroupJoin to produce a list of entries in the first list (allBets), 
-            each with a group of joined entries in the second list (betsHistory).**/
-            var unsettledBets = allBets.GroupJoin(betsHistory, sb => sb.CustomerId, ub => ub.CustomerId,
-                (ub, bets) => new
+            each with a group of joined entries in the second list ().**/
+            var unsettledBets = allBets.GroupJoin(betsHistory, ub => ub.CustomerId, sb => sb.CustomerId, (ub, bets) => new
                 {
                     UnsettledBet = ub,
-                    CustomerBettings = betsHistory
+                    CustomerBettings = bets
                 }).SelectMany(a => a.CustomerBettings.DefaultIfEmpty(),
-                (a, customerBetting) => new
+                (a, bet) => new
                 {
                     a.UnsettledBet,
-                    CustomerBetting = customerBetting
+                    CustomerBetting = bet
                 });
 
             return unsettledBets.Select(ub => new RiskyUnsettledBets
@@ -45,6 +44,7 @@ namespace RiskApplication.Service.Concrete
                 EventId = ub.UnsettledBet.EventId,
                 Participant = ub.UnsettledBet.Participant,
                 ToWin = ub.UnsettledBet.ToWin,
+                Stake = ub.UnsettledBet.Stake,
                 IsBetFromUnusualWinner = ub.CustomerBetting != null &&
                                             ub.CustomerBetting.UnusualRateWinner,
                 IsUnusualBet = ub.CustomerBetting != null &&

@@ -1,0 +1,15 @@
+D:\Projects\RiskApp\WebApi\RiskApplication.Service.Tests\bin\Debug\RiskApplication.Service.Tests.dll
+D:\Projects\RiskApp\WebApi\RiskApplication.Service.Tests\bin\Debug\RiskApplication.Service.Tests.pdb
+D:\Projects\RiskApp\WebApi\RiskApplication.Service.Tests\bin\Debug\Castle.Core.dll
+D:\Projects\RiskApp\WebApi\RiskApplication.Service.Tests\bin\Debug\Moq.dll
+D:\Projects\RiskApp\WebApi\RiskApplication.Service.Tests\bin\Debug\nunit.framework.dll
+D:\Projects\RiskApp\WebApi\RiskApplication.Service.Tests\bin\Debug\RiskApplication.Repository.dll
+D:\Projects\RiskApp\WebApi\RiskApplication.Service.Tests\bin\Debug\RiskApplication.Service.dll
+D:\Projects\RiskApp\WebApi\RiskApplication.Service.Tests\bin\Debug\RiskApplication.Repository.pdb
+D:\Projects\RiskApp\WebApi\RiskApplication.Service.Tests\bin\Debug\RiskApplication.Service.pdb
+D:\Projects\RiskApp\WebApi\RiskApplication.Service.Tests\bin\Debug\Castle.Core.xml
+D:\Projects\RiskApp\WebApi\RiskApplication.Service.Tests\bin\Debug\Moq.xml
+D:\Projects\RiskApp\WebApi\RiskApplication.Service.Tests\bin\Debug\nunit.framework.xml
+D:\Projects\RiskApp\WebApi\RiskApplication.Service.Tests\obj\Debug\RiskApplication.Service.Tests.csprojResolveAssemblyReference.cache
+D:\Projects\RiskApp\WebApi\RiskApplication.Service.Tests\obj\Debug\RiskApplication.Service.Tests.dll
+D:\Projects\RiskApp\WebApi\RiskApplication.Service.Tests\obj\Debug\RiskApplication.Service.Tests.pdb

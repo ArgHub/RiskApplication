@@ -4,6 +4,8 @@ using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using RiskApplication.Repository.Abstract;
 using RiskApplication.Repository.Concrete;
+using RiskApplication.Service.Abstract;
+using RiskApplication.Service.Concrete;
 
 namespace RiskApplication.WebApi.Infrastructure
 {
@@ -20,6 +22,8 @@ namespace RiskApplication.WebApi.Infrastructure
             container.Register(Component.For<ISettledBetRepository>().ImplementedBy<SettledBetRepository>());
             container.Register(Component.For<IUnsettledBetRepository>().ImplementedBy<UnsettledBetRepository>());
             container.Register(Component.For<IDataPathFinder>().ImplementedBy<DataPathFinder>());
+            container.Register(Component.For<ISettledBettingService>().ImplementedBy<SettledBettingService>());
+            container.Register(Component.For<IUnsettledBettingService>().ImplementedBy<UnsettledBettingService>());
         }
     }
 }

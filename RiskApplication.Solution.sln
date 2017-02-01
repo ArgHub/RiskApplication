@@ -17,6 +17,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskApplication.Repository.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskApplication.Service", "WebApi\RiskApplication.Service\RiskApplication.Service.csproj", "{CE962A41-B8E8-4057-B44E-76B34C03CDAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RiskApplication.Service.Tests", "WebApi\RiskApplication.Service.Tests\RiskApplication.Service.Tests.csproj", "{CBBBAD31-D520-477C-9BD6-F763DC573025}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B70CFF2E-ECD9-4A86-85FE-DE6668CE5391}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +50,10 @@ Global
 		{CE962A41-B8E8-4057-B44E-76B34C03CDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE962A41-B8E8-4057-B44E-76B34C03CDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE962A41-B8E8-4057-B44E-76B34C03CDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBBAD31-D520-477C-9BD6-F763DC573025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBBAD31-D520-477C-9BD6-F763DC573025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBBAD31-D520-477C-9BD6-F763DC573025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBBAD31-D520-477C-9BD6-F763DC573025}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +64,6 @@ Global
 		{C8CCA795-E04B-476E-BDD0-1C2ADD658B3D} = {A3B7921B-02E2-42A7-B077-31960D3D8957}
 		{078D1418-C85D-4345-9BFF-921AB364C434} = {9F0BAF31-AE40-4AB0-B509-F4DAA9B3ECED}
 		{CE962A41-B8E8-4057-B44E-76B34C03CDAE} = {A3B7921B-02E2-42A7-B077-31960D3D8957}
+		{CBBBAD31-D520-477C-9BD6-F763DC573025} = {A3B7921B-02E2-42A7-B077-31960D3D8957}
 	EndGlobalSection
 EndGlobal
