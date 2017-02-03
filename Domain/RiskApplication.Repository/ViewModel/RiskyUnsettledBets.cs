@@ -9,7 +9,6 @@ namespace RiskApplication.Repository.ViewModel
 {
     public class RiskyUnsettledBets : UnsettledBet
     {
-        //public int BetsCount { get; set; }
         public bool IsBetFromUnusualWinner { get; set; }
         public bool IsUnusualBet { get; set; }
         public bool IsHighlyUnusualBet { get; set; }

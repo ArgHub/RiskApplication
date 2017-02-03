@@ -23,9 +23,13 @@ D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Owin.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\EntityFramework.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Security.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\AttributeRouting.Web.Http.SelfHost.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\RiskApplication.Repository.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\RiskApplication.Service.dll
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\AttributeRouting.Web.Http.dll
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\AttributeRouting.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\RiskApplication.WebApi.pdb
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Castle.Core.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Castle.Windsor.xml
@@ -46,9 +50,13 @@ D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\EntityFramework.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Security.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\AttributeRouting.Web.Http.SelfHost.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\RiskApplication.Repository.pdb
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\RiskApplication.Service.pdb
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\AttributeRouting.Web.Http.xml
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\AttributeRouting.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\obj\Debug\RiskApplication.WebApi.Tests.csprojResolveAssemblyReference.cache
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\obj\Debug\RiskApplication.WebApi.Tests.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\obj\Debug\RiskApplication.WebApi.Tests.pdb
