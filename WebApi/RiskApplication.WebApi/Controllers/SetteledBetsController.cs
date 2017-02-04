@@ -20,7 +20,7 @@ namespace RiskApplication.WebApi.Controllers
         }
 
         [Route("settledbets")]
-        public List<CustomerBettingHistory> GetSettlesBets()
+        public List<CustomerBettingHistory> GetSettledBets()
         {
             try
             {
