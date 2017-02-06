@@ -9,7 +9,7 @@ using RiskApplication.Service.Abstract;
 
 namespace RiskApplication.WebApi.Controllers
 {
-    [RoutePrefix("api")]
+    [RoutePrefix("apimvc")]
     public class UnsttledBetsController : ApiController
     {
         private readonly IUnsettledBettingService _unSettledBettingService;
