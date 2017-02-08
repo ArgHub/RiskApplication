@@ -31,12 +31,15 @@ The design includes two main layers : Domain and WebApi
   - WebApi loads the data from Service layers
   - Web provides the data for UI
   UI is implemented in ReactJS.NET
+  
+All projects use CastleWindsor as StructureMap to maintain a loosely-coupled and testable implementation.
 There is a unit test project for each project, as the approach is TDD.
 
 Technology used :
-.NET4.5.2
-WebApi2
-MVC5
-ReactJS.NET
-NUnit
-Moq
+ -.NET4.5.2
+ -CastleWindsor
+ -WebApi2
+ -MVC5
+ -ReactJS.NET
+ -NUnit
+ -Moq
