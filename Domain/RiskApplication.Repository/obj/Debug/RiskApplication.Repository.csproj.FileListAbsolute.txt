@@ -2,3 +2,4 @@ D:\Projects\RiskApp\Domain\RiskApplication.Repository\bin\Debug\RiskApplication.
 D:\Projects\RiskApp\Domain\RiskApplication.Repository\bin\Debug\RiskApplication.Repository.pdb
 D:\Projects\RiskApp\Domain\RiskApplication.Repository\obj\Debug\RiskApplication.Repository.dll
 D:\Projects\RiskApp\Domain\RiskApplication.Repository\obj\Debug\RiskApplication.Repository.pdb
+D:\Projects\RiskApp\Domain\RiskApplication.Repository\obj\Debug\RiskApplication.Repository.csprojResolveAssemblyReference.cache

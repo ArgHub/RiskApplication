@@ -31,7 +31,7 @@ namespace RiskApplication.Service.Concrete
             }).Select(b => new CustomerBettingHistory
             {
                 CustomerId = b.CustomerId,
-                UnusualRateWinner = ((b.WinsCount/b.BetsCount) > 0.6),
+                UnusualRateWinner = ((double)b.WinsCount/b.BetsCount) > 0.6,
                 WinsCount = b.WinsCount,
                 BetsCount = b.BetsCount,
                 AverageBet = b.AverageBet

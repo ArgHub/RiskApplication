@@ -28,7 +28,6 @@ D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\EntityFramework.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Security.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\AttributeRouting.Web.Http.SelfHost.dll
-D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\AttributeRouting.Web.Http.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\AttributeRouting.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\RiskApplication.Repository.pdb
@@ -56,9 +55,13 @@ D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\EntityFramework.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Security.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\AttributeRouting.Web.Http.SelfHost.xml
-D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\AttributeRouting.Web.Http.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\AttributeRouting.xml
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\obj\Debug\RiskApplication.WebApi.Tests.csprojResolveAssemblyReference.cache
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\obj\Debug\RiskApplication.WebApi.Tests.dll
 D:\Projects\RiskApp\RiskApplication.WebApi.Tests\obj\Debug\RiskApplication.WebApi.Tests.pdb
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\x86\ClearScriptV8-32.dll
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\x86\v8-ia32.dll
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\x64\ClearScriptV8-64.dll
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\x64\v8-x64.dll
+D:\Projects\RiskApp\RiskApplication.WebApi.Tests\bin\Debug\WebActivatorEx.dll
